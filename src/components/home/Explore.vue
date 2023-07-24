@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 .explore {
-  background-image: url(images/bg-about.webp);
+  background-image: url(/images/bg-about.webp);
   height: 900px;
 
   @media (max-width: 991px) {
