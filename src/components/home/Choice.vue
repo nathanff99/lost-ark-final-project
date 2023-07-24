@@ -11,7 +11,7 @@
           </h2>
           <img
             class="mt-2 mb-4"
-            src="images/divider.webp"
+            src="/images/divider.webp"
             alt="Lost Ark Divider"
           >
           <p class="lead">
@@ -28,7 +28,7 @@
               class="character-type"
             >
               <img
-                :src="`images/character-types-icons/${item.image}`"
+                :src="`/images/character-types-icons/${item.image}`"
                 class="character-type-icon"
                 :alt="item.name"
               >

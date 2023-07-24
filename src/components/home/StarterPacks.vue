@@ -11,7 +11,7 @@
           </h2>
           <img
             class="mt-2"
-            src="images/divider.webp"
+            src="/images/divider.webp"
             alt="Lost Ark Divider"
           >
         </div>
@@ -23,7 +23,7 @@
         >
           <div class="bg-black border-0 card h-100 text-white">
             <img
-              :src="`images/packs/${item.key}.webp`"
+              :src="`/images/packs/${item.key}.webp`"
               class="card-img-top img-fluid"
               :alt="item.name"
             >

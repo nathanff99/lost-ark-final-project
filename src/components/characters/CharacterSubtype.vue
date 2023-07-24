@@ -17,7 +17,7 @@
         <div class="col-12 col-lg-6 mt-5 mt-lg-0">
           <div class="d-flex align-items-center justify-content-center justify-content-lg-start gap-3">
             <img
-              :src="`images/character-types-icons/${characterType.image}`"
+              :src="`/images/character-types-icons/${characterType.image}`"
               class="character-type-icon"
               :alt="characterType.name"
             >

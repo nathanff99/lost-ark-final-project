@@ -26,13 +26,13 @@
         data-bs-interval="3000"
       >
         <img
-          :src="`images/character-subtypes/${type}/${item.image}`"
+          :src="`/images/character-subtypes/${type}/${item.image}`"
           class="w-100 object-fit-contain character-subtype-image"
           :alt="item.name"
         >
         <div class="carousel-caption bottom-0">
           <img
-            :src="`images/character-subtypes-icons/${type}/${item.image}`"
+            :src="`/images/character-subtypes-icons/${type}/${item.image}`"
             class="character-subtype-icon"
             :alt="item.name"
           >
